@@ -75,7 +75,7 @@ CREATE INDEX idx3 ON sprzet(nr_seryjny);
 CREATE TABLE zgloszenie(
     id_zgloszenia int unsigned not null auto_increment,
     opis_zgloszenia text not null,
-    dupa_zgloszenia DATE not null,
+    data_zgloszenia DATE not null,
     data_odbioru DATE null,
     PRIMARY KEY(id_zgloszenia),
         id_klienta int unsigned not null,
